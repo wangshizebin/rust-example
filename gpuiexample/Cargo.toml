@@ -1,0 +1,13 @@
+[package]
+name = "计算器"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+#
+gpui = { path = "/Users/wangzebin/Downloads/zed/crates/gpui" }
+gpui_platform = {
+    path = "/Users/wangzebin/Downloads/zed/crates/gpui_platform",
+    features = ["font-kit"]
+}
